@@ -1,4 +1,4 @@
 # BanditExcercise
 
-# Sri Darshanun S.
-# IT13002466
+Sri Darshanun S.
+IT13002466
