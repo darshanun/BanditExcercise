@@ -1,1 +1,4 @@
-# BanditExcercise-IT13002466-
+# BanditExcercise
+
+# Sri Darshanun S.
+# IT13002466
