@@ -1,0 +1,81 @@
+<ls><p>
+bandit0@melinda:~$ ls
+readme
+
+bandit0@melinda:~$ ls -a
+.  ..  .bash_logout  .bashrc  .profile  readme
+
+bandit0@melinda:~$ ls -all
+total 24
+drwxr-xr-x   2 root    root    4096 Nov 14  2014 .
+drwxr-xr-x 167 root    root    4096 Jul  9 16:27 ..
+-rw-r--r--   1 root    root     220 Apr  9  2014 .bash_logout
+-rw-r--r--   1 root    root    3637 Apr  9  2014 .bashrc
+-rw-r--r--   1 root    root     675 Apr  9  2014 .profile
+-rw-r-----   1 bandit1 bandit0   33 Nov 14  2014 readme
+</p>
+<pwd><>
+bandit0@melinda:~$ pwd
+/home/bandit0
+
+<file>
+bandit0@melinda:~$ file . -C
+file: cannot open `magic.mgc' (Permission denied)
+
+bandit0@melinda:~$ file .bash_logout
+.bash_logout: ASCII text
+
+bandit0@melinda:~$ file .bashrc
+.bashrc: ASCII text
+
+bandit0@melinda:~$ file .profile
+.profile: ASCII text
+
+bandit0@melinda:~$ file readme
+readme: ASCII text
+
+<du>
+bandit0@melinda:~$ du
+20      .
+
+bandit0@melinda:~$ du -a
+4       ./.bashrc
+4       ./.profile
+4       ./.bash_logout
+4       ./readme
+20      .
+
+bandit0@melinda:~$ du readme
+4       readme
+
+bandit0@melinda:~$ du -b -c
+8661    .
+8661    total
+
+bandit0@melinda:~$ du -c
+20      .
+20      total
+
+bandit0@melinda:~$ du -b
+8661    .
+
+<find>
+bandit0@melinda:~$ find
+.
+./.bashrc
+./.profile
+./.bash_logout
+./readme
+
+bandit0@melinda:~$ find readme
+readme
+
+<cat>
+bandit0@melinda:~$ cat readme -A -n -T
+     1  boJ9jbbUNNfktd78OOpsqOltutMc3MY1$
+	 
+bandit0@melinda:~$ cat readme -n
+     1  boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+bandit0@melinda:~$ cat readme
+

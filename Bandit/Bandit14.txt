@@ -1,0 +1,27 @@
+bandit14@melinda:~$ ls -all
+total 24
+drwxr-xr-x   3 root root 4096 Nov 14  2014 .
+drwxr-xr-x 167 root root 4096 Jul  9 16:27 ..
+-rw-r--r--   1 root root  220 Apr  9  2014 .bash_logout
+-rw-r--r--   1 root root 3637 Apr  9  2014 .bashrc
+-rw-r--r--   1 root root  675 Apr  9  2014 .profile
+drwxr-xr-x   2 root root 4096 Nov 14  2014 .ssh
+
+bandit14@melinda:~$ cd .ssh
+
+bandit14@melinda:~/.ssh$ ls
+authorized_keys
+
+bandit14@melinda:~/.ssh$ file authorized_keys
+authorized_keys: OpenSSH RSA public key
+
+bandit14@melinda:~$ telnet localhost 30000
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+Correct!
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+Connection closed by foreign host.
+

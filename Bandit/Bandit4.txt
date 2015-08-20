@@ -1,0 +1,70 @@
+bandit4@melinda:~$ ls -all
+total 24
+drwxr-xr-x   3 root root 4096 Nov 14  2014 .
+drwxr-xr-x 167 root root 4096 Jul  9 16:27 ..
+-rw-r--r--   1 root root  220 Apr  9  2014 .bash_logout
+-rw-r--r--   1 root root 3637 Apr  9  2014 .bashrc
+-rw-r--r--   1 root root  675 Apr  9  2014 .profile
+drwxr-xr-x   2 root root 4096 Nov 14  2014 inhere
+
+bandit4@melinda:~$ cd inhere
+
+bandit4@melinda:~/inhere$ ls -all
+total 48
+-rw-r----- 1 bandit5 bandit4   33 Nov 14  2014 -file00
+-rw-r----- 1 bandit5 bandit4   33 Nov 14  2014 -file01
+-rw-r----- 1 bandit5 bandit4   33 Nov 14  2014 -file02
+-rw-r----- 1 bandit5 bandit4   33 Nov 14  2014 -file03
+-rw-r----- 1 bandit5 bandit4   33 Nov 14  2014 -file04
+-rw-r----- 1 bandit5 bandit4   33 Nov 14  2014 -file05
+-rw-r----- 1 bandit5 bandit4   33 Nov 14  2014 -file06
+-rw-r----- 1 bandit5 bandit4   33 Nov 14  2014 -file07
+-rw-r----- 1 bandit5 bandit4   33 Nov 14  2014 -file08
+-rw-r----- 1 bandit5 bandit4   33 Nov 14  2014 -file09
+drwxr-xr-x 2 root    root    4096 Nov 14  2014 .
+drwxr-xr-x 3 root    root    4096 Nov 14  2014 ..
+
+bandit4@melinda:~/inhere$ file ./*
+./-file00: data
+./-file01: data
+./-file02: data
+./-file03: data
+./-file04: data
+./-file05: data
+./-file06: data
+./-file07: ASCII text
+./-file08: data
+./-file09: data
+
+bandit4@melinda:~/inhere$ cat ./-file07
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+-------------------------------------------
+bandit4@melinda:~/inhere$ cat ./-file00
+;▒-▒(▒▒z▒▒У▒▒ޘ▒▒8鑾
+
+bandit4@melinda:~/inhere$ vi ./-file00
+
+bandit4@melinda:~/inhere$ cat ./-file01
+?▒@c
+    O8▒L▒c▒Ч7▒zb~▒▒ף▒▒U▒
+	
+bandit4@melinda:~/inhere$ cat ./-file02
+▒g▒f▒4▒6+>"▒▒B▒Vx▒▒d▒▒;de▒O
+
+bandit4@melinda:~/inhere$ cat ./-file03
+▒:n▒▒▒▒8S▒▒Ѕ[▒/q▒(▒▒@▒▒M▒.▒t
+
+bandit4@melinda:~/inhere$ cat ./-file04
+▒▒▒▒+▒▒5▒`▒¶R
+▒1*6C▒u#Nr▒
+
+bandit4@melinda:~/inhere$ cat ./-file05
+▒▒hZ▒▒▒P▒邚▒▒▒{#▒TP▒▒6▒]▒▒X:
+
+bandit4@melinda:~/inhere$ cat ./-file08
+▒▒M▒▒▒▒#8B0wPg▒▒▒▒C▒▒@▒▒FM
+
+bandit4@melinda:~/inhere$ cat ./-file09
+#[:*▒▒▒?▒▒j▒▒▒U▒
+

@@ -1,0 +1,13 @@
+bandit6@melinda:~$ ls -al
+total 20
+drwxr-xr-x   2 root root 4096 Nov 14  2014 .
+drwxr-xr-x 167 root root 4096 Jul  9 16:27 ..
+-rw-r--r--   1 root root  220 Apr  9  2014 .bash_logout
+-rw-r--r--   1 root root 3637 Apr  9  2014 .bashrc
+-rw-r--r--   1 root root  675 Apr  9  2014 .profile
+
+bandit6@melinda:~$ find / -size 33c -user bandit7 -group bandit6 2>/dev/null
+/var/lib/dpkg/info/bandit7.password
+
+bandit6@melinda:~$ cat /var/lib/dpkg/info/bandit7.password
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs

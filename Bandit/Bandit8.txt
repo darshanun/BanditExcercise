@@ -1,0 +1,12 @@
+
+bandit8@melinda:~$ ls -all
+total 56
+drwxr-xr-x   2 root    root     4096 Nov 14  2014 .
+drwxr-xr-x 167 root    root     4096 Jul  9 16:27 ..
+-rw-r--r--   1 root    root      220 Apr  9  2014 .bash_logout
+-rw-r--r--   1 root    root     3637 Apr  9  2014 .bashrc
+-rw-r--r--   1 root    root      675 Apr  9  2014 .profile
+-rw-r-----   1 bandit9 bandit8 33033 Nov 14  2014 data.txt
+
+bandit8@melinda:~$ cat data.txt | sort | uniq -u
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR

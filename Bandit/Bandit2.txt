@@ -1,0 +1,17 @@
+bandit2@melinda:~$ ls
+spaces in this filename
+
+bandit2@melinda:~$ ls -all
+total 24
+drwxr-xr-x   2 root    root    4096 Nov 14  2014 .
+drwxr-xr-x 167 root    root    4096 Jul  9 16:27 ..
+-rw-r--r--   1 root    root     220 Apr  9  2014 .bash_logout
+-rw-r--r--   1 root    root    3637 Apr  9  2014 .bashrc
+-rw-r--r--   1 root    root     675 Apr  9  2014 .profile
+-rw-r-----   1 bandit3 bandit2   33 Nov 14  2014 spaces in this filename
+
+bandit2@melinda:~$ sudo
+-bash: /usr/bin/sudo: Permission denied
+
+bandit2@melinda:~$ cat "spaces in this filename"
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
